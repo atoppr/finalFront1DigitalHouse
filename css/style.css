@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Tipografía */
+
+body{
+    background:#FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+/*(Oculto el h1 porque el logo es una imagen y para optimizar el SEO)*/
+
+h1{
+    display: none;
+}
+
+a, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 500;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    color: #232C50;
+}
+
+h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: #232851;
+}
+
+/* ------- HEADER ------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    font-weight: 500;
+}
+
+header div{
+    margin-left: 165px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    color: #242E52;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header nav ul li{
+    margin-left: 28px;
+}
+
+header nav ul li:hover{
+    opacity: 0.9;
+}
+
+header button{
+    margin-right: 165px;
+    background: #F3603B;
+    border: none;
+    padding: 12.5px 30.5px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.18);
+}
+
+header button:hover{
+    opacity: 0.95;
+
+}
+
+.buttonstarted{
+    background: #F3603B;
+    border: none;
+    padding: 12.5px 30.5px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.18);
+    text-decoration: none;
+}
+
+.buttonstarted:hover{
+    opacity: 0.95;
+}
+
+#hamburger{
+    display: none;
+}
+
+/* ----- "BRING EVERYONE TOGETHER (...)" ----- */
+
+main section.bring{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap: wrap-reverse;
+}
+
+main section.bring article.bringtext{
+    width: 386px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* ----- "WHAT'S DIFFERENT (...)" ----- */
+
+main section.different-numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 250px;
+    margin-left: 30px;
+    
+}
+
+.different{
+    width: 433px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.different span{
+    line-height: 1.6;
+
+}
+
+.button-number{
+    background: #F3603B;
+    border: none;
+    padding: 12.5px 24px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.numbers-and-text{
+    width: 433px;
+    height: 212px;
+    margin-right: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.numbers-and-text span{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #323851;
+    letter-spacing: -0.33px;
+}
+
+.numbers-and-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B2B7;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    width: 440px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.numbers-and-text button{
+    position: absolute;
+    left: -100px;
+    margin-top: -9px;
+}
+
+main section.bring.illust{
+    width: 386px;
+    height: 350px;
+    margin-right: 166px;
+    object-fit: fill;
+}
+
+.article-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* ----- TESTIMONIALS ('What they've said')----- */
+
+section.cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 400px;
+    position: relative;
+}
+
+section.cases div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section.cases h3{
+    margin-bottom: 75px;
+}
+
+section.cases div article{
+    width: 445px;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+section.cases div article h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+section.cases div article span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: #B9B9C1;
+}
+
+.cases div img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+}
+
+.cases h5{
+    color: #3F4868;
+}
+
+.cases button{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.cases button:hover{
+    opacity: 0.95;
+}
+.buttonstarted-cases{
+    background: #F3603B;
+    border: none;
+    padding: 12.5px 30.5px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 4px 8px 0px #F3603B80;
+    text-decoration: none;
+}
+
+/* ----- "SIMPLIFY (...)"----- */
+
+main section.simplify{
+    background: #F3613C;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main section.simplify div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+
+}
+
+main section.simplify button{
+    background-color: #FFFFFF;
+    color: #F3603B;
+    height: 40px;
+    margin-top: 25px;
+}
+
+/* ----- FOOTER ----- */
+
+footer{
+    background-color: #1E1E26;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 90px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-icons-footer{
+    font-size: 20px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 35px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icons-footer img{
+    margin-left: -18px;
+}
+
+.logo-icons-footer.redes{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+ }
+
+.first-column-footer{
+    line-height: 2.25;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.first-column-footer ul li:hover{
+    opacity: 0.85;
+}
+
+.redes i:hover{
+    opacity: 0.85;
+}
+
+
+.second-column-footer{
+    line-height: 2.25;
+    font-weight: 400;
+    text-align: left;
+}
+
+.second-column-footer ul li:hover{
+    opacity: 0.85;
+}
+
+.form-footer{
+    line-height: 4;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 35px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-footer form input{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 12.5px 11px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.18);
+
+}
+
+.form-footer form input::placeholder{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 19px;
+    color: #A0A0A0;
+
+}
+
+.form-footer button{
+    background: #F3603B;
+    border: none;
+    padding: 12.5px 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+.form-footer span{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #8C8C94;
+    margin-bottom: -25px;
+}
+
+footer button:hover{
+    opacity: 0.95;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (max-width: 376px){
+
+    .bringtext span{
+        color: #B3B2B7;
+    }
+    .different h3{
+        margin-right: 25px;
+    }
+    .numbers-and-text p{
+        max-width: 350px;
+        margin-left: 50px;
+        text-align: start;
+    }
+    #post-buttonnumber{
+        background-color: rgb(243,96,59,0.1);
+        padding: 10px;
+        margin-left: 100px;
+    }
+    #post-buttonnumber2{
+        background-color: rgb(243,96,59,0.1);
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .button-number{
+        margin-left: 140px;
+    }
+    .cases span {
+        max-width: 310px;
+        text-align: center;
+    }
+    .cases h3{
+        margin-top: 99px;
+    }
+    .woman{
+        margin-top: 99px;
+    }
+    .article-text{
+        max-width: fit-content;
+        margin-left: 22px;
+        color: #B3B2B7;
+    }
+    main section.bring span{
+        text-align: center;
+        margin-left: 10px;
+    }
+    .article-text{
+        text-align: center;
+        margin-left: -24px;
+    }
+    .cases div article img{
+        margin-top: 99px;
+    }
+    .first-column-footer , .second-column-footer{
+        max-width: 77px;
+    }
+    .first-column-footer{
+        margin-left: -70px;
+    }
+    .form-footer{
+        position: absolute;
+        margin-bottom: 375px;
+    }
+    .form-footer input{
+        margin-left: -50px;
+    }
+    .form-footer span{
+        margin-top: 400px;
+        max-width: 100vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1280px){
+
+    header nav , header button{
+        display: none;
+    }
+    #logo{
+        margin-left: 20px;
+    }
+    #hamburger{
+        display: block;
+        margin-right: 25px;
+    }
+    .different-numbers{
+        text-align: center;
+        height: auto;
+        width: auto;
+        max-width: 100vw;
+        max-height: 100vh;;
+    }
+    .different{
+        margin-top: 5px;
+        align-items: flex-start;
+    }
+    .numbers-and-text{
+        margin-top: 45px;
+    }
+    .button-number{
+        margin-left: 120px;
+    }
+    .cases{
+        width: 100vw;
+    }
+    #woman1{
+        display: none;
+    }
+    #richard{
+        display: none;
+    }
+    .illust{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .illust img{
+        height: auto;
+        width: auto;
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+    main section.bring{
+        text-align: center;
+        margin: 15px;
+    }
+    .numbers-and-text button{
+        margin-top: -9px;
+    }
+    .simplify{
+        text-align: center;
+        margin-top: -125px;
+    }
+    .logo-icons-footer{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        letter-spacing: 7px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1280px){
+
+    #hamburger{
+        display: none;
+    }
+} 
