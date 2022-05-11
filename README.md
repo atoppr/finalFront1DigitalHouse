@@ -1,4 +1,4 @@
-👋 My name is Axel
+Hi 👋 My name is Axel
 =====================
 
 Full-stack Developer
