@@ -1,5 +1,4 @@
-# finalFront1DigitalHouse
-DigitalHi 👋 My name is Axel
+👋 My name is Axel
 =====================
 
 Full-stack Developer
